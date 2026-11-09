@@ -1,0 +1,27 @@
+# Dependencies, compiler caches and generated output
+node_modules/
+elm-stuff/
+dist/
+playwright-report/
+test-results/
+coverage/
+/v1/public/elm.js
+/releases/
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local agent state (keep shared prompt templates)
+.pi/*
+!.pi/prompts/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
